@@ -1,0 +1,1 @@
+# Alianza Platform – QA Project
