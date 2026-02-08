@@ -37,5 +37,5 @@ Each folder represents either a practice project or real testing experience
 (documented without violating NDA).
 
 ## Contact
-- LinkedIn: https://www.linkedin.com/in/
+- LinkedIn: https://www.linkedin.com/in/luis-apariciotestr/
 - GitHub: https://github.com/luisfas92
