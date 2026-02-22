@@ -1,1 +1,1 @@
-# Nalu Project Website – QA Project
+# Nalu Website – QA Project
