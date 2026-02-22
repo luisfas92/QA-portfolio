@@ -44,7 +44,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - The system must be accessible from desktop, laptop, and mobile devices.
 - If a page is unavailable, the system displays:
   “Working for you, see you in the water.”
-
+  
 ## Business Rules
 
 - Public users can browse without authentication.
@@ -60,7 +60,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - Header must load correctly.
 - All navigation links must be active.
 - Must be accessible from supported browsers/devices.
-
+  
 ## Main Flow
 
 1. User views header.
@@ -73,7 +73,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
    - Navigation menu (School, News, Brands, Surf, Kitesurf, Skate, Classes)
 3. User clicks a menu item.
 4. System redirects to corresponding section.
-
+   
 ## Alternative Flows
 
 - If user clicks Profile:
@@ -83,12 +83,12 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
   “No results found.”
 - If cart is empty:
   “Cart is empty.”
-
+  
 # 5. Use Case – User Registration
 
 ## Preconditions
 - User is not already registered.
-
+ 
 ## Business Rules
 - Email must be unique.
 - User must accept Terms & Conditions.
@@ -97,7 +97,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
   - 1 letter
   - 1 number
   - 1 special character
-
+    
 ## Main Flow
 
 1. User selects Register.
@@ -112,18 +112,18 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 6. Activation email is sent.
 7. User confirms email.
 8. Account becomes Active.
-
+   
 # 6. Use Case - Login
 
 ## Preconditions
 - User must be registered.
 - Email must be confirmed.
-
+  
 ## Business Rules
 - Only confirmed users can log in.
 - After 3 failed attempts - CAPTCHA enabled.
 - Only users over 18 can purchase.
-
+  
 ## Main Flow
 
 1. User clicks Profile icon.
@@ -131,7 +131,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 3. User enters credentials.
 4. System validates.
 5. If valid - Redirect to profile.
-
+ 
 ## Alternative Flows
 
 - Incorrect credentials - Error message displayed.
@@ -140,18 +140,18 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - Forgot password:
   - User enters email.
   - System sends reset link.
-
+    
 # 7. Use Case – Shopping Cart & Checkout
 
 ## Preconditions
 - User must be logged in.
 - Product must be in stock.
-
+  
 ## Business Rules
 - Quantity cannot exceed stock.
 - Cart persists after page exit.
 - Purchase requires full personal information.
-
+  
 ## Main Flow
 
 1. User adds product to cart.
@@ -169,14 +169,14 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 8. Confirmation message displayed:
   “Purchase completed successfully.”
 9. Confirmation email sent.
-
+    
 # 8. Use Case - Classes Reservation
 
 ## Business Rules
 - Must reserve at least 24 hours in advance.
 - Reservation requires login.
 - Slots deducted only after payment confirmation.
-
+  
 ## Main Flow
 
 1. User navigates to Classes.
@@ -190,7 +190,7 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 5. User clicks “Book Now”.
 6. If logged in - Redirect to payment.
 7. If not logged in - Redirect to login/registration.
-
+   
 # 9. Additional Modules
 
 ## School
@@ -200,11 +200,11 @@ Public information about instructors and disciplines.
 - Public access
 - Sorted by most recent
 - Shareable via social media
-
+  
 ## Brands
 - Alphabetical order
 - Only active brands displayed
-
+  
 ## Surf / Kitesurf / Skate
 - Filter by category, brand, price
 - Sorting options:
@@ -212,7 +212,7 @@ Public information about instructors and disciplines.
   - Relevance
   - Newest
 - Only active products with stock
-
+  
 # 10. Footer
 
 ## Functional Requirements
@@ -224,6 +224,6 @@ Footer must display:
 - Business hours
 - Navigation links
 - Social media icons
-
+  
 System year updates automatically.
 Only valid social links are displayed.
