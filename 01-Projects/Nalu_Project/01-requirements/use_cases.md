@@ -1,4 +1,4 @@
-# Use Cases Document – Nalu School
+# Use Cases Document - Nalu School BETA Version
 
 ## 1. Project Overview
 
@@ -35,7 +35,7 @@ The client requires a responsive website aligned with its Kitesurf identity, inc
 - Search functionality
 - Responsive design
 
-Orders should be processed within 24–48 hours. If delayed, the user must be notified via email.
+Orders should be processed within 24-48 hours. If delayed, the user must be notified via email.
 
 ---
 
@@ -47,7 +47,7 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 - The platform must follow accessibility standards.
 - The system must be accessible from desktop, laptop, and mobile devices.
 - If a page is unavailable, the system displays:
-  > “Working for you, see you in the water.”
+  “Working for you, see you in the water.”
 
 ## Business Rules
 
@@ -60,7 +60,7 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 
 ---
 
-# 4. Use Case – Homepage (Header)
+# 4. Use Case - Homepage (Header)
 
 ## Preconditions
 - Header must load correctly.
@@ -86,9 +86,9 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
   - If logged in → Redirect to profile.
   - If not logged in → Redirect to login page.
 - If search returns no results:
-  > “No results found.”
+  “No results found.”
 - If cart is empty:
-  > “Cart is empty.”
+  “Cart is empty.”
 
 ---
 
@@ -123,7 +123,7 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 
 ---
 
-# 6. Use Case – Login
+# 6. Use Case - Login
 
 ## Preconditions
 - User must be registered.
@@ -131,7 +131,7 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 
 ## Business Rules
 - Only confirmed users can log in.
-- After 3 failed attempts → CAPTCHA enabled.
+- After 3 failed attempts - CAPTCHA enabled.
 - Only users over 18 can purchase.
 
 ## Main Flow
@@ -140,13 +140,13 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 2. Login form is displayed.
 3. User enters credentials.
 4. System validates.
-5. If valid → Redirect to profile.
+5. If valid - Redirect to profile.
 
 ## Alternative Flows
 
-- Incorrect credentials → Error message displayed.
-- Email not confirmed → 
-  > “You must confirm your email before logging in.”
+- Incorrect credentials - Error message displayed.
+- Email not confirmed: 
+  “You must confirm your email before logging in.”
 - Forgot password:
   - User enters email.
   - System sends reset link.
@@ -179,12 +179,12 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
 6. User clicks “Complete Purchase”.
 7. System generates order.
 8. Confirmation message displayed:
-   > “Purchase completed successfully.”
+  “Purchase completed successfully.”
 9. Confirmation email sent.
 
 ---
 
-# 8. Use Case – Classes Reservation
+# 8. Use Case - Classes Reservation
 
 ## Business Rules
 - Must reserve at least 24 hours in advance.
@@ -202,8 +202,8 @@ Orders should be processed within 24–48 hours. If delayed, the user must be no
    - Schedule
    - Price
 5. User clicks “Book Now”.
-6. If logged in → Redirect to payment.
-7. If not logged in → Redirect to login/registration.
+6. If logged in - Redirect to payment.
+7. If not logged in - Redirect to login/registration.
 
 ---
 
