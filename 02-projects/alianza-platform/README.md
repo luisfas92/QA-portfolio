@@ -1,1 +1,0 @@
-# Nalu Website – QA Project
