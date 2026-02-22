@@ -1,1 +1,1 @@
-# Alianza Platform – QA Project
+# Nalu Project Website – QA Project
