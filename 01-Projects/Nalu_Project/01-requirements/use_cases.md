@@ -18,8 +18,6 @@ The business also provides:
 
 The platform must support web access across desktop and mobile devices (iOS and Android compatible browsers).
 
----
-
 ## 2. Business Problem
 
 The client requires a responsive website aligned with its Kitesurf identity, including:
@@ -36,8 +34,6 @@ The client requires a responsive website aligned with its Kitesurf identity, inc
 - Responsive design
 
 Orders should be processed within 24-48 hours. If delayed, the user must be notified via email.
-
----
 
 # 3. General Site Rules & Business Constraints
 
@@ -57,8 +53,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - Email confirmation is required after registration.
 - Only users over 18 years old can complete purchases.
 - Lesson reservations must be made at least 24 hours in advance.
-
----
 
 # 4. Use Case - Homepage (Header)
 
@@ -90,8 +84,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - If cart is empty:
   “Cart is empty.”
 
----
-
 # 5. Use Case – User Registration
 
 ## Preconditions
@@ -121,8 +113,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 7. User confirms email.
 8. Account becomes Active.
 
----
-
 # 6. Use Case - Login
 
 ## Preconditions
@@ -150,8 +140,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 - Forgot password:
   - User enters email.
   - System sends reset link.
-
----
 
 # 7. Use Case – Shopping Cart & Checkout
 
@@ -182,8 +170,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
   “Purchase completed successfully.”
 9. Confirmation email sent.
 
----
-
 # 8. Use Case - Classes Reservation
 
 ## Business Rules
@@ -204,8 +190,6 @@ Orders should be processed within 24-48 hours. If delayed, the user must be noti
 5. User clicks “Book Now”.
 6. If logged in - Redirect to payment.
 7. If not logged in - Redirect to login/registration.
-
----
 
 # 9. Additional Modules
 
@@ -228,8 +212,6 @@ Public information about instructors and disciplines.
   - Relevance
   - Newest
 - Only active products with stock
-
----
 
 # 10. Footer
 
