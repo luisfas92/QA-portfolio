@@ -1,1 +1,61 @@
+# Test Execution Summary
 
+## Project
+Game Overlay & AI Integration Testing – Android
+
+## Objective
+Validate the stability, rendering behavior, gesture interaction, widget alignment, and Gemini Live integration across selected Android games.
+
+## Test Environment
+
+- Android Version: 13–16
+- Device Type: Real device testing
+- Application Source: Google Play Store
+- Internet Connection: Required for Gemini Live functionality
+
+## Games Tested
+
+1. The Battle of Polytopia
+2. Gardenscapes
+3. Angry Birds 2
+
+## Test Coverage
+
+Total Test Cases Designed: **12**
+
+* Game Test Cases 
+
+* The Battle of Polytopia - 4 
+* Gardenscapes - 4 
+* Angry Birds 2 - 4 
+
+### Functional Areas Covered:
+- Entrypoint Rendering Validation
+- Overlay Gesture & UX Stability
+- Widget Alignment Verification
+- Gemini Live Activation
+- Gameplay Performance with AI Active (2-minute stress test)
+
+## Observations
+
+- Overlay rendering remained stable across all games.
+- No gesture conflicts were detected with Android system navigation.
+- Widgets displayed correct alignment and proportions.
+- Gemini Live activated successfully and provided contextually relevant responses.
+- No severe performance degradation was observed during the 2-minute stress gameplay.
+
+## Risk Assessment
+
+Low risk detected for overlay instability or AI-related performance impact under normal usage conditions.
+
+Potential risk areas for future testing:
+- Extended gameplay sessions (10+ minutes)
+- Low-end devices
+- Weak network conditions
+
+## Conclusion
+
+The Entrypoint tab Overlay and Gemini Live integration performed as expected across all tested games.  
+All functional and performance validation scenarios passed successfully.
+
+The system is considered stable under defined test conditions.
